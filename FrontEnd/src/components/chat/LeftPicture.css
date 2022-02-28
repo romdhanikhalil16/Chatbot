@@ -1,0 +1,18 @@
+.photo {
+  position: absolute;
+  top: 316px;
+  border-bottom-right-radius: 72px;
+  border-top-left-radius: 72px;
+  left: 8px;
+}
+
+.text {
+  position: absolute;
+  top: 99px;
+  left: 39px;
+}
+.blue {
+  color: rgb(48, 207, 179);
+  /* color: rgb(22, 22, 192); */
+  font-weight: bold;
+}

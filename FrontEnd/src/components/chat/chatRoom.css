@@ -1,0 +1,38 @@
+/* version 1 */
+
+/* .chatRoom {
+  background-color: white;
+  width: 312px;
+  border: 3px solid royalblue;
+  position: absolute;
+  right: 125px;
+  bottom: 182px;
+  height: 435px;
+  border-radius: 8%;
+} */
+
+/* version 2 */
+
+.chatRoom {
+  position: absolute;
+  right: 125px;
+  bottom: 212px;
+  height: 435px;
+}
+
+.logo {
+  width: 44px;
+  height: 34px;
+  border-radius: 27%;
+  right: 84px;
+  right: 80px;
+  position: absolute;
+  right: 250px;
+  top: 5px;
+}
+.emptySpace {
+  position: absolute;
+  bottom: 30px;
+  right: 500px;
+  background-size: 60px;
+}

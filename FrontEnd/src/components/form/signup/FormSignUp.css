@@ -1,0 +1,65 @@
+.nav-form {
+  margin-top: 80px;
+}
+.img {
+  height: 170px;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+  opacity: 0.7;
+}
+
+@keyframes upToDown {
+  0% {
+    position: relative;
+    top: -100%;
+  }
+
+  100% {
+    position: relative;
+    top: 0%;
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+}
+
+.formContainer {
+  animation-name: upToDown;
+  animation-duration: 2s;
+}
+
+.input {
+  width: 420px;
+  position: relative;
+  left: 450px;
+  top: 20px;
+  margin-top: 45px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.btnRegister {
+  position: relative;
+  right: 205px;
+  margin-top: 100px;
+  left: 1046px;
+  width: 400px;
+}
+.buttonLog {
+  position: absolute;
+  right: 210px;
+  margin-top: 10px;
+}
+
+.borderColorRed {
+  border-color: red;
+}
+.borderColorGreen {
+  border-color: green;
+}
+
+p {
+  position: absolute;
+  left: 1020px;
+}
+.space {
+  margin-top: 17px;
+}

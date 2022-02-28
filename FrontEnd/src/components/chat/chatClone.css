@@ -1,0 +1,26 @@
+@keyframes animation {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(70%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.icone {
+  position: absolute;
+  bottom: 80px;
+  right: 90px;
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.hidden {
+  visibility: hidden;
+}
+body {
+  background-image: url("./assets//img1.png");
+}

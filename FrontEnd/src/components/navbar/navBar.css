@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: "none";
+  color: "white";
+}
+link:hover {
+  color: aliceblue;
+}
